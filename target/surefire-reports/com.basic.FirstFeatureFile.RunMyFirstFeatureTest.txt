@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.FirstFeatureFile.RunMyFirstFeatureTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 8.683 sec <<< FAILURE!
+When User enters first name(Scenario: Validate First Name field)  Time elapsed: 0.007 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-EM5FD9K', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.Platform.fromString(Platform.java:300)
+	at org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)
+	at org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)
+	at java.util.Formatter$FormatSpecifier.printString(Unknown Source)
+	at java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.lang.String.format(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)
+	at org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
+	at ?.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+
+Scenario: Validate First Name field  Time elapsed: 0.007 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DESKTOP-EM5FD9K', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.Platform.fromString(Platform.java:300)
+	at org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)
+	at org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)
+	at java.util.Formatter$FormatSpecifier.printString(Unknown Source)
+	at java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.lang.String.format(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)
+	at org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
+	at ?.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+

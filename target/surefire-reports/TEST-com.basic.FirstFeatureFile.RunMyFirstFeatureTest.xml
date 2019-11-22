@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.basic.FirstFeatureFile.RunMyFirstFeatureTest" time="0.024" errors="2" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\CucumberSetup\CucumberAuto"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\CucumberSetup\CucumberAuto"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\FLABON~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\CucumberSetup\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5623059387874398653.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.4\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;&quot;C:\Users\FLABON-W530-GOLD\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.4\bin;&quot;;C:\Users\FLABON-W530-GOLD\AppData\Roaming\npm;C:\Program Files\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\FLABON-W530-GOLD"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="FLABON-W530-GOLD"/>
+    <property name="java.class.path" value="C:\Program Files\eclipse-java-oxygen-3a-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_231"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="de"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_231\lib\resources.jar;C:\Program Files\Java\jre1.8.0_231\lib\rt.jar;C:\Program Files\Java\jre1.8.0_231\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_231\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_231\lib\jce.jar;C:\Program Files\Java\jre1.8.0_231\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_231\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_231\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\CucumberSetup\CucumberAuto\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Validate First Name field" name="Given User needs to be on the Facebook login page" time="0.002"/>
+  <testcase classname="Scenario: Validate First Name field" name="When User enters first name" time="0.007">
+    <error message="Unrecognized platform: windows nt
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
+System info: host: &apos;DESKTOP-EM5FD9K&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
+System info: host: &apos;DESKTOP-EM5FD9K&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.Platform.fromString(Platform.java:300)
+	at org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)
+	at org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)
+	at java.util.Formatter$FormatSpecifier.printString(Unknown Source)
+	at java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.lang.String.format(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)
+	at org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
+	at ✽.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Validate First Name field" name="Scenario: Validate First Name field" time="0.007">
+    <error message="Unrecognized platform: windows nt
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
+System info: host: &apos;DESKTOP-EM5FD9K&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
+System info: host: &apos;DESKTOP-EM5FD9K&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.Platform.fromString(Platform.java:300)
+	at org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)
+	at org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)
+	at java.util.Formatter$FormatSpecifier.printString(Unknown Source)
+	at java.util.Formatter$FormatSpecifier.print(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.util.Formatter.format(Unknown Source)
+	at java.lang.String.format(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)
+	at org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
+	at ✽.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Validate First Name field" name="Then User checks if first name is present" time="0.008">
+    <skipped/>
+  </testcase>
+</testsuite>

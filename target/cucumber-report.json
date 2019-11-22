@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate First Name field",
+        "description": "",
+        "id": "create-an-account-in-facebook;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8308253400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to be on the Facebook login page",
+            "match": {
+              "location": "MyFirstStepDef.user_needs_to_be_on_the_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120036000,
+              "error_message": "org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027DESKTOP-EM5FD9K\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.Platform.fromString(Platform.java:300)\r\n\tat org.openqa.selenium.Capabilities.getPlatform(Capabilities.java:46)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.toString(RemoteWebDriver.java:1100)\r\n\tat java.util.Formatter$FormatSpecifier.printString(Unknown Source)\r\n\tat java.util.Formatter$FormatSpecifier.print(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.util.Formatter.format(Unknown Source)\r\n\tat java.lang.String.format(Unknown Source)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.setFoundBy(RemoteWebElement.java:62)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.setFoundBy(RemoteWebDriver.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:423)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)\r\n\tat com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)\r\n\tat ✽.When User enters first name(MyFirstFeature.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User enters first name",
+            "match": {
+              "location": "MyFirstStepDef.user_enters_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User checks if first name is present",
+            "match": {
+              "location": "MyFirstStepDef.user_checks_if_first_name_is_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create an account in Facebook",
+    "description": "As a user you need to open Facebook home page and do the validations",
+    "id": "create-an-account-in-facebook",
+    "keyword": "Feature",
+    "uri": "MyFirstFeature.feature"
+  }
+]
