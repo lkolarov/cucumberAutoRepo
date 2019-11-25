@@ -26,7 +26,8 @@ import cucumber.api.junit.Cucumber;
 					plugin = {
 								"pretty",
 								"html:target/cucumber-htmlreport",
-								"json:target/cucumber-report1.json",		
+								"json:target/cucumber-report8.json",
+								"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport8.html"
 							}
 					
 			)

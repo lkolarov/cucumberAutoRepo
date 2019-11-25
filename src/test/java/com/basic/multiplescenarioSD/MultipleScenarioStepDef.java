@@ -27,27 +27,27 @@ public class MultipleScenarioStepDef {
 	
 	@When("^User enters first name$")
 	public void user_enters_first_name() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@id='u_0_o']")).sendKeys("David");
+		driver.findElement(By.xpath("//*[@id=\"u_0_o\"]")).sendKeys("David");
 		Thread.sleep(1000);
 		
 	}
 	
 	@Then("^User checks if first name is present$")
 	public void user_checks_if_first_name_is_present() throws InterruptedException {
-		String userNameActual = driver.findElement(By.xpath("//input[@id='u_0_o']")).getAttribute("value");
+		String userNameActual = driver.findElement(By.xpath("//*[@id=\"u_0_o\"]")).getAttribute("value");
 		Assert.assertEquals("David", userNameActual);
 		Thread.sleep(1000);
 	}
 	
 	@And("^User enters surname$")
 	public void user_enters_surname() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@id='u_0_s']")).sendKeys("Rogers");
+		driver.findElement(By.xpath("//*[@id=\"u_0_q\"]")).sendKeys("Rogers");
 		Thread.sleep(1000);
 	}
 	
-	@But("^User mobile number field should be blank$")
+	@Then("^User mobile number field should be blank$")
 	public void user_mobile_number_field_should_be_blank() throws InterruptedException {
-		String mobileNumberActual = driver.findElement(By.xpath("//input[@id='u_0_v']")).getAttribute("value");
+		String mobileNumberActual = driver.findElement(By.xpath("//*[@id=\"u_0_t\"]")).getAttribute("value");
 		Assert.assertEquals("", mobileNumberActual);
 		Thread.sleep(1000);
 	}

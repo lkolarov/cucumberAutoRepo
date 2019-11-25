@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.basic.FirstFeatureFile.RunMyFirstFeatureTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 8.683 sec <<< FAILURE!
-When User enters first name(Scenario: Validate First Name field)  Time elapsed: 0.007 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 7.185 sec <<< FAILURE!
+When User enters first name(Scenario: Validate First Name field41)  Time elapsed: 0.004 sec  <<< ERROR!
 org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt
 Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
 System info: host: 'DESKTOP-EM5FD9K', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
@@ -22,9 +22,9 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
 	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
-	at ?.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+	at ?.When User enters first name(MyFirstFeature.feature:6)
 
-Scenario: Validate First Name field  Time elapsed: 0.007 sec  <<< ERROR!
+Scenario: Validate First Name field41  Time elapsed: 0.005 sec  <<< ERROR!
 org.openqa.selenium.WebDriverException: Unrecognized platform: windows nt
 Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
 System info: host: 'DESKTOP-EM5FD9K', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
@@ -44,5 +44,5 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
 	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
-	at ?.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+	at ?.When User enters first name(MyFirstFeature.feature:6)
 

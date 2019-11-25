@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.basic.FirstFeatureFile.RunMyFirstFeatureTest" time="0.024" errors="2" skipped="1">
+<testsuite tests="4" failures="0" name="com.basic.FirstFeatureFile.RunMyFirstFeatureTest" time="0.017" errors="2" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\CucumberSetup\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5623059387874398653.tmp"/>
+    <property name="classworlds.conf" value="C:\CucumberSetup\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf829353696087271099.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.4\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;&quot;C:\Users\FLABON-W530-GOLD\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.4\bin;&quot;;C:\Users\FLABON-W530-GOLD\AppData\Roaming\npm;C:\Program Files\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,8 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Validate First Name field" name="Given User needs to be on the Facebook login page" time="0.002"/>
-  <testcase classname="Scenario: Validate First Name field" name="When User enters first name" time="0.007">
+  <testcase classname="Scenario: Validate First Name field41" name="Given User needs to be on the Facebook login page" time="0"/>
+  <testcase classname="Scenario: Validate First Name field41" name="When User enters first name" time="0.004">
     <error message="Unrecognized platform: windows nt
 Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
 System info: host: &apos;DESKTOP-EM5FD9K&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
@@ -85,10 +85,10 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
 	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
-	at ✽.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+	at ✽.When User enters first name(MyFirstFeature.feature:6)
 </error>
   </testcase>
-  <testcase classname="Scenario: Validate First Name field" name="Scenario: Validate First Name field" time="0.007">
+  <testcase classname="Scenario: Validate First Name field41" name="Scenario: Validate First Name field41" time="0.005">
     <error message="Unrecognized platform: windows nt
 Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
 System info: host: &apos;DESKTOP-EM5FD9K&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
@@ -111,10 +111,10 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
 	at com.basic.FirstFeatureFile.MyFirstStepDef.user_enters_first_name(MyFirstStepDef.java:28)
-	at ✽.When User enters first name(com/basic/FirstFeatureFile/MyFirstFeature.feature:6)
+	at ✽.When User enters first name(MyFirstFeature.feature:6)
 </error>
   </testcase>
-  <testcase classname="Scenario: Validate First Name field" name="Then User checks if first name is present" time="0.008">
+  <testcase classname="Scenario: Validate First Name field41" name="Then User checks if first name is present" time="0.008">
     <skipped/>
   </testcase>
 </testsuite>

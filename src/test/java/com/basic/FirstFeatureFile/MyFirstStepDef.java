@@ -25,13 +25,13 @@ public class MyFirstStepDef {
 	@When("^User enters first name$")
 	public void user_enters_first_name() {
 		
-		driver.findElement(By.xpath("//input[@id='u_0_o']")).sendKeys("David");
+		driver.findElement(By.xpath("//*[@id=\"u_0_o\"]")).sendKeys("David");
 		
 	}
 	
 	@Then("^User checks if first name is present$")
 	public void user_checks_if_first_name_is_present() {
-		String userNameActual = driver.findElement(By.xpath("//input[@id='u_0_o']")).getAttribute("value");
+		String userNameActual = driver.findElement(By.xpath("//*[@id=\"u_0_o\"]")).getAttribute("value");
 		Assert.assertEquals("David", userNameActual);
 	}
 	
